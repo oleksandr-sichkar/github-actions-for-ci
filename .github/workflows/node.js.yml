@@ -30,4 +30,5 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-
+        os: [ubuntu-latest, windows-2016]
+        node-version: [12.x, 14.x]
